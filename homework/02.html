@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單範例</title>
+</head>
+<body>
+    <h2>unknow signup</h2>
+    <form action="#" method="post">
+        <label for="text">name：</label>
+        <input type="text" id="text" name="text"><br><br>
+        
+        <label for="password">password：</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="email">e-mail：</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+ 
+        
+        <label for="date">bithdate：</label>
+        <input type="date" id="date" name="date"><br><br>
+        
+        <label for="color">顏色選擇：</label>
+        <input type="color" id="color" name="color"><br><br>
+        
+        <label for="range">範圍選擇：</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+        
+        <label>grender：</label>
+        <input type="radio" id="radio1" name="radio" value="選項1">
+        <label for="radio1">male</label>
+        <input type="radio" id="radio2" name="radio" value="選項2">
+        <label for="radio2">female</label><br><br>
+        
+        <label>你是?：</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="金大學生">
+        <label for="checkbox1">金大學生</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value=   "資工系">
+        <label for="checkbox2">資工系</label><br><br>
+        
+        <label for="select">為什麼選資工系：</label>
+        <select id="select" name="select">
+            <option value="選項A">錢</option>
+            <option value="選項B">興趣</option>
+            <option value="選項C">其他</option>
+        </select><br><br>
+        
+        <label for="textarea">輸入其他</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="file">檔案上傳：</label>
+        <input type="file" id="file" name="file"><br><br>
+        
+        <label for="hidden">隱藏欄位：</label>
+        <input type="hidden" id="hidden" name="hidden" value="隱藏的值"><br><br>
+        
+        <button type="submit">提交</button>
+        <button type="reset">重設</button>
+    </form>
+</body>
+</html>
