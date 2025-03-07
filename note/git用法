@@ -1,0 +1,8 @@
+git clone 網址-->把github的檔案丟到vscode
+
+ssh-keygen -->生成金鑰
+
+----繳交作業----
+1.git add -A
+2.git commit-m
+3.git push
