@@ -4,5 +4,8 @@ ssh-keygen -->生成金鑰
 
 ----繳交作業----
 1.git add -A
-2.git commit-m
+2.git commit-m"add your filename"
 3.git push
+
+
+
