@@ -9,7 +9,7 @@ console.log("before filte",(nums));
 let newnums = nums.filter(num => num % 2 === 1);
 console.log("after filte",(newnums));
 
-let numss = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+/*迴圈 let numss = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let Numbers = [];  
 
 for (let i = 0; i < numss.length; i++) {
@@ -18,4 +18,5 @@ for (let i = 0; i < numss.length; i++) {
     }
 }
 
-console.log(Numbers);  
+console.log(Numbers); 
+*/
