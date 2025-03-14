@@ -3,3 +3,7 @@
 let x = 5  let y = 3 x+y
 
 記得存檔 ctrl+s 再去執行
+---怎麼使用deno---
+1.在終端機打deno
+2.點一下終端機按兩次 ctrl+c 
+3.deno run youprojectname.js
