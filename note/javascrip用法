@@ -1,0 +1,5 @@
+陣列 let a = [ 1, 2, 3] a.length-->長度
+字典 let somethig = {name:'its name',age:20}--> person.name -->person.age
+let x = 5  let y = 3 x+y
+
+記得存檔 ctrl+s 再去執行
