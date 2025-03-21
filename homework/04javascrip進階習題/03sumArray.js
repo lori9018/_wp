@@ -19,6 +19,7 @@ console.log(sumArray([1, 2, 3, 4]));
 chatgpt的作法
 function sumArray(arr) {
     return arr.reduce((sum, num) => sum + num, 0);
+    0是reduce方法的初始值-->從0開始加
 }
     
 console.log(sumArray([1, 2, 3, 4])); 
