@@ -19,3 +19,4 @@ for (let name in scores) {  // 遍歷物件的屬性
     console.log(`${name} 的分數是 ${scores[name]}`);
 }
 */
+
