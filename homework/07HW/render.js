@@ -66,9 +66,17 @@ export function layout(title, content) {
   export function list(posts) {
     let list = []
     for (let post of posts) {
+      const formattedDate = new Date(post.created_at).toLocaleDateString('zh-TW', {
+          year: 'numeric',
+           month: 'long',
+           day: 'numeric',
+           hour: '2-digit',
+           minute: '2-digit'
+         });
       list.push(`
       <li>
         <h2>${ post.title }</h2>
+        <p>Created at: ${formattedDate}</p>
         <p><a href="/post/${post.id}">Read post</a></p>
       </li>
       `)
@@ -97,9 +105,17 @@ export function layout(title, content) {
   }
   
   export function show(post) {
+    const formattedDate = new Date(post.created_at).toLocaleDateString('zh-TW', {
+      year: 'numeric',
+       month: 'long',
+       day: 'numeric',
+       hour: '2-digit',
+       minute: '2-digit'
+     });
     return layout(post.title, `
       <h1>${post.title}</h1>
       <p>${post.body}</p>
+      <p>Created at: ${formattedDate}</p>
     `)
   }
   
