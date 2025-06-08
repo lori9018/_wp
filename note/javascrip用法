@@ -7,3 +7,5 @@ let x = 5  let y = 3 x+y
 1.在終端機打deno
 2.點一下終端機按兩次 ctrl+c 
 3.deno run youprojectname.js
+
+rm 「資料庫名字」.db (移除資料庫)
